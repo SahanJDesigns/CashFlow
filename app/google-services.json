@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849477003772",
+    "project_id": "cashflow-1d5c5",
+    "storage_bucket": "cashflow-1d5c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849477003772:android:5ffd10308062d4f2c3ea79",
+        "android_client_info": {
+          "package_name": "com.example.ToDoList"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO2pe_YN_QDHaut-_hSpAS4vffy_Sirqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849477003772:android:983d96f2ebaedc1cc3ea79",
+        "android_client_info": {
+          "package_name": "com.example.cashflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO2pe_YN_QDHaut-_hSpAS4vffy_Sirqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

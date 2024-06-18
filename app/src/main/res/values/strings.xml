@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="pending_bill">Pending Bill</string>
+    <string name="confirm_bill">Confirm Bill</string>
+    <string name="history_bill">History Bill</string>
+    <string name="profile_image_description">Profile Image</string>
+    <string-array name="bill_state">
+        <item id="0">Requesting Stage</item>
+        <item id="1">Processing Stage</item>
+        <item id="2">Paid Stage</item>
+        <item id="3">Urgent Processing Stage</item>
+        <item id="4">Refused Stage</item>
+        <item id="5">Re-requesting Stage</item>
+        <item id="-1">Invalid Stage</item>
+    </string-array>
+</resources>
