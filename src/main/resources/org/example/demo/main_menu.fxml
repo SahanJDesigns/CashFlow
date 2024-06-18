@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.MainMenuController">
+   <Label text="Main Menu">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <ButtonBar prefHeight="40.0" prefWidth="200.0">
+     <buttons>
+         <Button mnemonicParsing="false" onAction="#toAddNewReservation" text="New Reservation" />
+         <Button mnemonicParsing="false" onAction="#toAddNewCategory" text="New Room Category" />
+       <Button mnemonicParsing="false" onAction="#toAddNewRoom" text="New Room" />
+     </buttons>
+   </ButtonBar>
+    <TableView fx:id="tableView" prefWidth="248.0">
+        <columns>
+            <TableColumn fx:id="reservationID" prefWidth="120.00000154972076" text="Reservation Id" />
+            <TableColumn fx:id="customerName" prefWidth="148.59996795654297" text="Customer name" />
+            <TableColumn fx:id="roomNumber" minWidth="8.0" prefWidth="114.20001220703125" text="Room Number" />
+         <TableColumn fx:id="reservationDate" minWidth="8.0" prefWidth="108.79998779296875" text="Reservation Date" />
+         <TableColumn fx:id="amount" minWidth="8.0" prefWidth="120.99996948242188" text="Amout" />
+         <TableColumn fx:id="checkInDate" minWidth="8.0" prefWidth="96.39996337890625" text="Check In Date" />
+         <TableColumn fx:id="actionCol" minWidth="8.0" prefWidth="96.39996337890625" text="Action" />
+        </columns>
+    </TableView>
+</VBox>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.MainMenuController">
+   <TextArea prefHeight="21.0" prefWidth="248.0" text="Select room and package">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </TextArea>
+    <TableView fx:id="tableView" prefHeight="560.0" prefWidth="800.0">
+        <columns>
+            <TableColumn fx:id="firstNameCol" minWidth="-1.0" prefWidth="200.0" text="Room Number" />
+         <TableColumn fx:id="firstNameCol1" minWidth="-1.0" prefWidth="200.0" text="Package" />
+            <TableColumn fx:id="actionCol" minWidth="-1.0" prefWidth="200.0" text="Price" />
+         <TableColumn fx:id="actionCol1" minWidth="-1.0" prefWidth="200.0" text="Action" />
+        </columns>
+    </TableView>
+</VBox>

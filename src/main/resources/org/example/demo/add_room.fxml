@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.AddRoomController">
+   <Button mnemonicParsing="false" onAction="#toMainMenu" text="Back" />
+   <Label text="Enter Room Details">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+      <padding>
+         <Insets top="10.0" />
+      </padding>
+   </Label>
+<HBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+   <VBox alignment="CENTER" prefHeight="200.0" prefWidth="400.0">
+      <children>
+         <HBox>
+            <children>
+               <Label prefWidth="100.0" text="Room Number">
+                  <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  </padding></Label>
+               <TextField fx:id="room_number_field" prefHeight="26.0" prefWidth="300.0">
+                  <HBox.margin>
+                     <Insets top="5.0" />
+                  </HBox.margin></TextField>
+            </children>
+         </HBox>
+         <HBox layoutX="10.0" layoutY="10.0">
+            <children>
+               <Label prefWidth="100.0" text="Category">
+                  <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  </padding>
+               </Label>
+               <TextField fx:id="categoryID_field" prefWidth="300.0">
+                  <HBox.margin>
+                     <Insets top="5.0" />
+                  </HBox.margin></TextField>
+            </children>
+         </HBox>
+         <HBox layoutX="10.0" layoutY="110.0">
+            <children>
+               <Label prefWidth="100.0" text="Room Cost">
+                  <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  </padding>
+               </Label>
+               <TextField fx:id="room_cost_field" prefWidth="300.0">
+                  <HBox.margin>
+                     <Insets top="5.0" />
+                  </HBox.margin></TextField>
+            </children>
+         </HBox>
+      </children>
+   </VBox>
+   <VBox alignment="CENTER" prefHeight="200.0" prefWidth="400.0">
+            <children>
+               <ImageView fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+            </children></VBox>
+</children>
+</HBox>
+   <Button mnemonicParsing="false" onAction="#submitBtnClick" text="Next" />
+</VBox>
